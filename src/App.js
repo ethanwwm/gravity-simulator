@@ -167,11 +167,11 @@ function App() {
   };
 
   function handleClick(newPlanet, newGravity) {
-    if (newPlanet == earth) {
+    if (newPlanet === earth) {
       setGravityCountup(9.8);
-    } else if (newPlanet == sun) {
+    } else if (newPlanet === sun) {
       setGravityCountup(278);
-    } else if (newPlanet == pluto) {
+    } else if (newPlanet === pluto) {
       setGravityCountup(0.62);
     } else {
       setGravityCountup(8.87);
